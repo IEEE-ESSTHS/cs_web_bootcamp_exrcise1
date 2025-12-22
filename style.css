@@ -1,13 +1,38 @@
-body {
-  background-color: lightblue;
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div {
+  height: 500px;
+  width: 400px;
+  border: 2px solid #00c72e;
+  background-color: rgb(0, 255, 204);
+  
 }
 
-h1 {
+h1 ,h2{
   color: white;
   text-align: center;
 }
 
-p {
-  font-family: verdana;
-  font-size: 20px;
+input {
+   display: block;      
+  margin: 100px auto;
+}
+
+button {
+  width: 120px;          
+  padding: 10px;          
+  display: block;         
+  margin: 1px auto;       
+  font-size: 16px;         
+  background-color: #00c72e; 
+  color: white;           
+  border: none;            
+  border-radius: 5px;      
+}
+
+button:hover {
+  background-color: #00c72eb0; 
 }

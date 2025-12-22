@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>My Web Page</title>
-</head>
-<body>
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
-<a href="https://www.example.com">This is a link</a>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Guess the number <br />NB between 1 and 10</h1>
+      <h2 id="message">You have 3 tries</h2>
+
+      <input type="text" id="guessInput" placeholder="Enter your guess" />
+
+      <button id="submitBtn">Guess</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
